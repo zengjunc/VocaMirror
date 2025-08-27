@@ -61,7 +61,7 @@ def generate_reply(chat_query, chat_history):
     try:
         # 调用 DashScope 的 Qwen-Plus 模型
         response = Generation.call(
-            api_key=os.getenv("sk-9180721f147e4c8da8592600ff865ee1"),  # 或者直接使用字符串替换 os.getenv("DASHSCOPE_API_KEY")
+            api_key=os.getenv("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"),  # 或者直接使用字符串替换 os.getenv("DASHSCOPE_API_KEY")
             model="qwen-plus",
             messages=messages,
             result_format="message"
